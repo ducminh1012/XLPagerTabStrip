@@ -26,6 +26,9 @@ import Foundation
 
 open class ButtonBarViewCell: UICollectionViewCell {
 
+    @IBOutlet open weak var imageViewTrailingConstraint: NSLayoutConstraint!
+    @IBOutlet open weak var imageViewWidthConstraint: NSLayoutConstraint!
+    @IBOutlet open weak var containerView: UIView!
     @IBOutlet open var imageView: UIImageView!
     @IBOutlet open var label: UILabel!
 
